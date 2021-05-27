@@ -1048,23 +1048,11 @@ MonoBehaviour:
   largeBtn: {fileID: 456078218}
   item:
   - ID: 0
-    objectToSpawn: {fileID: 4231070353511059212, guid: 97eb4b5a49ea95f47bfe325f2208ec3f,
+    objectToSpawn: {fileID: 5420079695373706396, guid: 257e4bd006733cd4d9cd89bb4e98116e,
       type: 3}
     small: {x: 0.007, y: 0.007, z: 0.007}
     normal: {x: 0.009, y: 0.009, z: 0.009}
     large: {x: 0.01, y: 0.01, z: 0.01}
-  - ID: 1
-    objectToSpawn: {fileID: 6752340550856540049, guid: f9f2261a0947cff4e9d3c1cb2dcffc85,
-      type: 3}
-    small: {x: 0.1, y: 0.1, z: 0.1}
-    normal: {x: 0.2, y: 0.3, z: 0.3}
-    large: {x: 0.2, y: 0.2, z: 0.2}
-  - ID: 0
-    objectToSpawn: {fileID: 6573478014218677293, guid: f556bf78a2a2736449dbacbfc138a4ca,
-      type: 3}
-    small: {x: 0.1, y: 0.1, z: 0.1}
-    normal: {x: 0.2, y: 0.3, z: 0.3}
-    large: {x: 0.2, y: 0.2, z: 0.2}
 --- !u!1 &456078216
 GameObject:
   m_ObjectHideFlags: 0

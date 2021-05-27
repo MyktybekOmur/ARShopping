@@ -14,7 +14,7 @@ public class EyeTrackerSupported : MonoBehaviour
     {
         ARFaceManager faceManager = FindObjectOfType<ARFaceManager>();
 
-        if (faceManager != null )
+        if (faceManager != null && faceManager.subsystem != null)
         {
             eyeTrackerSupportedText.text = "Eye Tracking is supported on this device";
         }

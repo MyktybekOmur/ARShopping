@@ -34,7 +34,7 @@ public class EyeTracker : MonoBehaviour
     void OnEnable()
     {
         ARFaceManager faceManager = FindObjectOfType<ARFaceManager>();
-        if (faceManager != null)
+        if (faceManager != null && faceManager.subsystem != null)
         {
             arFace.updated += OnUpdated;
             Debug.Log("Eye Tracking is supported on this device");

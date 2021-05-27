@@ -76,7 +76,10 @@ public class ProgrammManager : MonoBehaviour
         {
             PlaneMarkerPrefab.transform.position = hits[0].pose.position;
             PlaneMarkerPrefab.transform.rotation = hits[0].pose.rotation;
+           
             PlaneMarkerPrefab.SetActive(true);
+            
+                
         }
         if (Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began && control==0)
         {
