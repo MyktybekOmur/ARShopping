@@ -1,1 +1,1 @@
-# ARShopping
+# ARShopping app for android and ios
